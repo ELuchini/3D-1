@@ -1,0 +1,19 @@
+{
+  "name": "3d1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "python -m http.server 8080 --bind 127.0.0.1",
+    "dev": "python -m http.server 8080 --bind 127.0.0.1"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@babylonjs/core": "^9.31.0",
+    "@babylonjs/gui": "^9.31.0",
+    "@babylonjs/loaders": "^9.31.0"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

@@ -1,0 +1,28 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e3]:
+    - text: "Modo: Real"
+    - button "Cambiar modo" [active] [ref=f2e4] [cursor=pointer]
+    - generic [ref=f2e5]:
+      - textbox "Nuevo recuerdo" [ref=f2e6]
+      - textbox [ref=f2e7]: "#ff9933"
+      - button "+" [ref=f2e8] [cursor=pointer]
+    - list [ref=f2e9]:
+      - listitem [ref=f2e10]:
+        - generic [ref=f2e12]: Comprar pan
+        - button "×" [ref=f2e13] [cursor=pointer]
+      - listitem [ref=f2e14]:
+        - generic [ref=f2e16]: Llamar a mamá
+        - button "×" [ref=f2e17] [cursor=pointer]
+      - listitem [ref=f2e18]:
+        - generic [ref=f2e20]: Entregar informe
+        - button "×" [ref=f2e21] [cursor=pointer]
+      - listitem [ref=f2e22]:
+        - generic [ref=f2e24]: Agua plantas
+        - button "×" [ref=f2e25] [cursor=pointer]
+      - listitem [ref=f2e26]:
+        - generic [ref=f2e28]: Test recuerdo
+        - button "×" [ref=f2e29] [cursor=pointer]
+      - listitem [ref=f2e30]:
+        - generic [ref=f2e32]: Tiempo de creatividad
+        - button "×" [ref=f2e33] [cursor=pointer]
+  - generic [ref=f2e34]: Click + arrastrar para rotar · Rueda para zoom · Click en esferas para recordar
